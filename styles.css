@@ -116,8 +116,8 @@ main {
 .anchor {
   display: block;
   content: '';
-  height: 55px;
-  margin-top: -55px;
+  height: 50px;
+  margin-top: -50px;
   visibility: hidden;
 }
 
@@ -307,7 +307,6 @@ header {
 /* About Me Styles */
 #about-me {
   align-items: center;
-  gap: 5rem;
 }
 
 .accent2 {
@@ -319,6 +318,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem 5rem;
+  margin-bottom: 2rem;
 }
 
 .skills {
